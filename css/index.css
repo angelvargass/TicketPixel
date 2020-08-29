@@ -1,0 +1,234 @@
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* nav a{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    margin-bottom: 15px;
+} */
+
+/*
+nav a:hover{
+    color: #1EBB2D;
+} */
+
+/* Agregado por Ángel para que lo evalúen 19/11/2019 - 12:19 m.d  */
+
+/* .botones-header {
+    position: relative;
+} */
+
+.botones-header a button {
+    margin: 0px;
+    margin: 0px 5px;
+}
+
+.botones-header a button:hover {
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+.nav-superior {
+    padding-top: 30px;
+    text-align: center;
+    height: 30px;
+    padding-bottom: 20px;
+    
+
+}
+
+.nav-superior a{
+    /* vertical-align: center; */
+    margin-bottom: 20px;
+
+}
+
+.nav-superior div {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-superior div a {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-superior div a:hover {
+    color: #F2610A;
+}
+
+.nav-superior .linea {
+    width: 2px;
+    height: 15px;
+    background: #000000;
+    /* margin-top: 5px; */
+}
+
+.portada {
+    background: url('../imagenes/landing-page/pexels-photo-518389.jpeg');
+    /*background-image: url('https://media0.giphy.com/media/E8BABElkbultC/giphy.gif?cid=790b7611c90d4e43342cc775e96ada19ace19542471f36f0&rid=giphy.gif');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    color: #FFFFFF;
+    height: 600px;
+    margin-bottom: 70px;
+    background-attachment: fixed;
+    text-align: center;
+
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);*/
+
+
+    
+}
+
+#txt-filtro {
+    /* margin-left: 36%; */
+    width: 300px;
+    margin-top: 40px;
+    background-image: url("../imagenes/imagenes_generales/64673.png");
+    background-position: 10px 7px;
+    background-size: 16px 15px;
+    background-repeat: no-repeat;
+
+    height: 50px;
+    
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+
+    /* position: sticky;
+    top: 20px;  */
+}
+.portada input::placeholder{
+    color: #FFFFFF;
+}
+
+main span{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+
+.filtrar-por-fecha{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* .filtrar-por-fecha label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.filtrar-por-fecha input{
+    margin-right: 20px;
+}
+
+.filtrar-por-fecha::placeholder{
+    color: #000000;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+hr{
+    margin-bottom: 70px;
+    width: 600px;
+    border: 0.5px solid #F2610A;
+}
+
+#contenedorCards {
+    display: flow-root;
+}
+
+.card {
+    border: 1px solid black;
+    max-width: 23%;
+    margin: 0 1% 60px 1%;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    height: 455px;
+    box-shadow: 0 4px 4px 0 #2d343677;
+}
+
+.card:hover {
+    transition: all ease 1s;
+	box-shadow: 0px 0px 40px #484848;
+	filter: grayscale(0%);
+	transform: scale(1.03);
+}
+
+.card header img {
+    width: 100%;
+    height: 100%;
+}
+
+.card header {
+    height: 200px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #F2610A;
+    margin-bottom: 30px;
+}
+
+.card h3 {
+    padding-left: 4%;
+    font-size: 16px;
+    margin-top: 15%;
+}
+
+.card h4 {
+    padding-left: 4%;
+    font-size: 14px;
+}
+
+.btn-mas {
+    display: block;
+    margin: 0 auto 10px auto;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #F2610A;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 15%;
+}
+
+.btn-mas:hover {
+    display: block;
+    margin: 0 auto 10px auto;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #1EBB2D;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 15%;
+}
+
+h1 {
+    padding-top: 200px;
+    margin-top: 0% !important;
+    font-size: 60px;
+    text-shadow: 0px 6px rgba(0, 0, 0, 0.5);
+}

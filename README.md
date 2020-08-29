@@ -1,1 +1,1 @@
-# TicketPixel
+Academic project: TicketPixel

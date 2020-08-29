@@ -1,0 +1,70 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+.container-filtro {
+    height: 80px;
+    margin-bottom: 2%;
+}
+
+.container-filtro input {
+    margin: 2% 0 0 20%;
+}
+
+h1{
+    margin-bottom: 20px !important;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.input_registrar{
+    background-image: url("../imagenes/imagenes_generales/64673.png");
+    background-position: 10px 7px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 34px;
+}
+
+.tbl_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tbl-tarjetas thead tr th {
+    background-color: #000000;
+    padding: 2% 4%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#tbl-tarjetas {
+    width: 80%;
+    margin-bottom: 13px;
+}
+
+
+#tbl-tarjetas tbody { 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#tbl-tarjetas tbody td {
+    border-block-end:1px solid #000000;
+    padding: 1% 0;
+    color: #F2610A;
+}
+
+#tbl-tarjetas tbody tr td button {
+    margin: auto;
+}
+
+footer {
+    margin-top: 15%;
+}

@@ -1,0 +1,147 @@
+/*El sistema debe permitir al administrador registrar el 
+
+nombre de la empresa, 
+el logo, 
+la razón social, 
+cédula jurídica,
+ teléfonos de contacto 
+ y la dirección exacta 
+ 
+ de la aplicación*/
+
+.grid-central {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -100px;
+}
+
+.grid-central form {
+    margin-left: 20%;
+    height: 350px;
+}
+
+.grid-izquierda {
+    display: grid;
+    margin-left: 50%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+#img-avatarPlaceholder {
+    height: 400px;
+    width: auto;
+}
+
+.mapa {
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+.mapa #geolocalizacion-recinto {
+    background-size: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.btnSeleccionarImagen {
+    padding-left: 50px;
+}
+
+h5 {
+    text-align: center;
+}
+
+#file-logo {
+    display: block;
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 50%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.direccion {
+    margin-top: 150px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    padding: 1% 0;
+    text-align: left;
+    margin-bottom: 30px;
+    height: 100% !important;
+}
+
+form input {
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+}
+
+form select {
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+.botonImagen {
+    margin: 10px auto 50px auto;
+}
+
+#btn-registrar {
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+#btn-registrar:hover {
+    display: block;
+    margin-top: 31px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.form-registrar-evento select,
+input {
+    width: 100%;
+    margin: 0px auto 12px auto;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #F2610A;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label span {
+    color: red;
+}
+
+
+/*
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 16px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+}
+*/

@@ -1,0 +1,54 @@
+.main-title {
+    height: 90px;
+}
+
+.form-container {
+    height: 535px;
+    margin-bottom: 30px;
+}
+
+.form-container form {
+    width: 25%;
+    margin: auto;
+    padding: 4% 6% 4% 5%;
+}
+
+.form-container form label {
+    display: block;
+    text-align: left;
+    padding: 1% 0%;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 16px;
+
+}
+
+.form-container form input {
+    display: block;
+    width: 100%;
+    /* margin: 3% 0 0 25%; */
+    /* background-image: none; */
+}
+
+.form-container form button {
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 35%;
+    align-content: center;
+    padding-left: 5px;
+}
+
+.form-container form placeholder {
+    padding-left: -5px;
+}
+.terminos{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+.terminos:hover{
+    color: #F2610A;
+}

@@ -1,0 +1,62 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-filtro {
+    height: 80px;
+    margin-bottom: 2%;
+}
+
+.container-filtro input {
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+.container-filtro h1 {
+    display: inline-block;
+    margin-left: 8%;
+}
+
+#tbl-usuarios {
+    width: 60%;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+thead tr th {
+    background-color: #000000 !important;
+    padding: 2% 3% !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+td {
+    margin-left: 3.5% !important;
+    margin-right: 3.5% !important;
+}
+
+.input_registrar {
+    background-image: url("../imagenes/imagenes_generales/64673.png");
+    background-position: 10px 7px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 34px;
+}
+
+footer {
+    margin-top: 7%;
+}
+
+.tbl-usuarios {
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+    margin-left: 15%;
+}
+
+.btn-activar,
+.btn-desactivar {
+    width: 10px;
+}

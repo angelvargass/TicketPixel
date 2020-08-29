@@ -1,0 +1,126 @@
+/* .filtro {
+    margin-left: 2%;
+} */
+
+#cards-container {
+    display: flow-root;
+    padding-top: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+section hr {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 600px;
+    border: 0.5px solid #F2610A;
+}
+
+.card {
+    position: relative;
+    border: 1px solid black;
+    max-width: 23%;
+    margin: 3% 1% 2% 1%;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 #2d343677;
+    height: 450px;
+}
+
+.card:hover {
+    transition: all ease 1s;
+    box-shadow: 0px 0px 40px #484848;
+    filter: grayscale(0%);
+    transform: scale(1.03);
+}
+
+.card header img {
+    width: 100%;
+    height: 100%;
+}
+
+.card header {
+    height: 200px;
+    /* background-size: cover; */
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 2% 1% 0% 1%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.card h3 {
+    padding-left: 4%;
+    padding-bottom: 4%;
+    font-size: 16px;
+}
+
+.card h4 {
+    padding-left: 4%;
+    font-size: 14px;
+}
+
+.btn-mas {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    margin: 0% 0 2% 35%;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #F2610A;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-mas:hover {
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #1EBB2D;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2% 35%;
+}
+
+#txt-filtro {
+    margin-left: 1%;
+    width: 40%;
+    /* background: rgba(0, 0, 0, 0.2); */
+    height: 32px;
+    border-radius: 10px;
+    background-image: url("../imagenes/imagenes_generales/64673.png");
+    background-position: 10px 7px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 34px;
+    margin-bottom: 10px;
+}
+
+.button-inactivos {
+    display: block;
+    width: 15%;
+    height: 40px;
+}
+
+footer {
+    margin-top: 15%;
+}

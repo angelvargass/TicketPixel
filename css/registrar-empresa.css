@@ -1,0 +1,155 @@
+/*El sistema debe permitir al administrador registrar el 
+
+nombre de la empresa, 
+el logo, 
+la razón social, 
+cédula jurídica,
+ teléfonos de contacto 
+ y la dirección exacta 
+ 
+ de la aplicación*/
+
+.grid-central {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -100px;
+}
+
+.grid-central form {
+    border-radius: 10px;
+    margin-left: 20%;
+    height: 350px;
+}
+
+.grid-izquierda {
+    display: grid;
+    margin-left: 50%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+#img-avatarPlaceholder {
+    height: 400px;
+    width: auto;
+}
+
+.mapa {
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+.mapa #geolocalizacion-recinto {
+    background-size: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.subir-logoEmpresa #img-avatarPlaceholder {
+    background-size: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+#imagePreview {
+    width: 400px;
+    height: auto;
+}
+
+.btnSeleccionarImagen {
+    padding-left: 50px;
+}
+
+h5 {
+    text-align: center;
+}
+
+#file-logo {
+    display: block;
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 50%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    padding: 1% 0;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 100% !important;
+}
+
+form input {
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+}
+
+form select {
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+.input-coordenadas {
+    padding-top: 10px;
+}
+
+#btn-registrar {
+    margin-top: 31px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+#btn-registrar:hover {
+    display: block;
+    margin-top: 31px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.botonImagen {
+    margin: 120px auto 50px auto;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 16px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+}
+
+#img-avatarPlaceholder {
+    height: 300px;
+    width: auto;
+}
+
+.terminos {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.terminos:hover {
+    color: #F2610A;
+}

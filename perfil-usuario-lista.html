@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/perfil-usuario.css">
+    <link rel="icon" href="imagenes/imagenes_generales//logo sin letras.png">
+
+    <title>Perfil de usuario</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cantarell&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="imagenes/imagenes_generales/logo_blanco.png" class="logo-header"></a>
+        </div>
+        <div class="botones-header" id="btns-header">
+
+
+            <a href="iniciar-sesion.html">
+                <button type="button">Iniciar sesión</button>
+            </a>
+
+            <a href="registrar-usuario.html">
+                <button type="button" class="btn-registrarse">Registrarse</button>
+            </a>
+
+            <div class="zona-notificacion" id="notificaciones">
+                <div class="notification-icon">
+                    <i class="fas fa-bell" id="click-notificacion"></i>
+                </div>
+                <div class="dropdown" id="dropdown">
+                    <!-- <div class="notificacion" id="notificacion-container">
+                        <div class="imagen-notificacion">
+                            <img src="imagenes/imagenes_generales/logo sin letras.png" alt="Foto de perfil">
+                        </div>
+                        <div class="info-notificacion" id="info-notificacion">
+                            <p class="titulo-notificacion" id="titulo-notificacion"></p>
+                            <p id="descripcion-notificacion"></p>
+                            <span class="hora-notificacion" id="hora-notificacion"></span>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+
+            <a href="carrito-compras.html">
+                <div id="carrito-compras">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </a>
+
+            <a href="perfil-usuario.html" class="href-perfil">
+                <div id="foto-usuario">
+
+                </div>
+            </a>
+
+            <a href="iniciar-sesion.html">
+                <button type="button" class="btn-registrarse" id="btn-cerrarSesion">Cerrar sesión</button>
+            </a>
+
+        </div>
+    </header>
+    <main>
+        <section class="parte_editar width">
+            <!-- <a href="#">Editar perfil</a> -->
+            <!-- <a href="registrar-tarjetas.html">Agregar tarjetas</a> -->
+            <a href="listar-tarjetas-lista.html">Ver sus tarjetas</a>
+            <a href="#">Carrito de compras</a>
+            <a href="#">Eventos preferidos</a>
+            <a href="#">Eventos pasados</a>
+        </section>
+
+        <section class="perfil">
+            <div class="foto_nombre">
+                <div id="foto_perfil_container"></div>
+                <div id="nombre_container"></div>
+            </div>
+            <hr>
+            <div class="info_perfil">
+                <div class="informacion">
+                    <h5 class="subtitulo">Información</h5>
+                    <div id="informacion_container">
+                        <div id="fechaDeNacimiento_container">
+                            <h5>Fecha de nacimiento: </h5>
+                        </div>
+                        <div id="correo_container">
+                            <h5>Correo: </h5>
+                        </div>
+                        <div id="genero_container">
+                            <h5>Género: </h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="direccion">
+                    <h5 class="subtitulo">Dirección</h5>
+                    <div id="direccion_container">
+                        <div id="direccionCasa_container">
+                            <h5>Especificación: </h5>
+                        </div>
+
+                        <div id="provincia_container">
+                            <h5>Dirección: </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <img src="imagenes/imagenes_generales/logo_blanco.png" class="logo-footer">
+        </div>
+        <div>
+            <h3>Nosotros</h3>
+            <a href="landing-page.html">
+                <li>CR Tickets</li>
+            </a>
+            <a href="seleccionar-tipo-organizador.html">
+                    <li>Conviértase en organizador</li>
+                </a>
+            <a href="terminos-condiciones.html">Terminos y condiciones</a>
+
+        </div>
+        <div class="redes-footer">
+            <h3>Siganos en</h3>
+            <ul>
+                <i class="fab fa-facebook" class="i-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </ul>
+        </div>
+        <div>
+            <h3>Contacto</h3>
+            <p>Tel: 2233-4455</p>
+            <a href="mailto:equiponebula2019@gmail.com?subject=Consulta de eventos">
+                <li>Correo: equiponebula2019@gmail.com</li>
+            </a>
+            <a href="landin-page-equipo.html">
+                <li>Diseño y desarrollo: Equipo Nebula</li>
+            </a>
+        </div>
+        <!-- <div>
+                <h3>Eventos</h3>
+                <li>Deportes</li>
+                <li>Conciertos</li>
+                <li>Culturales</li>
+                <li>Comedia</li>
+            </div> -->
+
+    </footer>
+
+    <script src="js/controlador-conectado.js"></script>
+    <script src="js/controlador-nav.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/notificaciones-controlador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <!-- <script src="js/registrar-usuarios-servicio.js"></script> -->
+    <script src="js/perfil-usuario.servicio.js"></script>
+
+    <script src="js/perfil-usuario-lista-controlador.js"></script>
+
+
+
+</body>
+
+</html>
